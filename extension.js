@@ -4,6 +4,8 @@ const Meta = imports.gi.Meta;
 
 let handlerId = 0;
 
+function init() { }
+
 function enable() {
   // Shell.Global: https://gjs-docs.gnome.org/shell01~0.1_api/shell.global
   // Meta.Display: https://gjs-docs.gnome.org/meta8~8_api/meta.display
