@@ -2,7 +2,7 @@
 
 const Meta = imports.gi.Meta;
 
-let handlerId;
+let handlerId = 0;
 
 function enable() {
   // Shell.Global: https://gjs-docs.gnome.org/shell01~0.1_api/shell.global
@@ -18,7 +18,8 @@ function enable() {
 }
 
 function disable() {
-  if (handlerId) {
+  if (handlerId !== 0) {
     global.display.disconnect(handlerId);
+    handlerId = 0;
   }
 }
