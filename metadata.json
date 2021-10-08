@@ -2,9 +2,10 @@
   "uuid": "maximize-spotify@hum.per.sg",
   "name": "Maximize Spotify",
   "description": "Maximizes the Spotify (Flatpak version) window when it launches.",
-  "version": 1,
+  "version": 2,
   "shell-version": [
-    "40"
+    "40",
+    "41"
   ],
   "url": "https://github.com/hum-ler/maximize-spotify-extension"
 }
